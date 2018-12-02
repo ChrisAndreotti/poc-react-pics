@@ -1,3 +1,15 @@
+This project explores following aspects of React applications:
+* Handling user input with forms and events with callback functions
+* Communicating from child to parent components by passing callbacks as props
+* Rendering lists using JavaScript map function and setting a key prop
+* Making requests to a 3rd party API using axios
+* Using the React Refs system to access the DOM via an eventListener
+* Basic use of the Grid CSS system
+
+All content and instructions came from the [Udemy Modern React with Redux course](https://www.udemy.com/react-redux/).
+
+The application itself allows a user to search for images. Results are displayed in a CSS Grid.
+
 This project relies on the [Unsplash Search Photos API](https://unsplash.com/documentation#search-photos) to query for public images. To use the app in the browser, you must:
 
 1. [Create a developer account at Unsplash.com](https://unsplash.com/developers) 
