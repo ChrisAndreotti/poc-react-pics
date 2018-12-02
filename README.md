@@ -1,3 +1,10 @@
+This project relies on the [Unsplash Search Photos API](https://unsplash.com/documentation#search-photos) to query for public images. To use the app in the browser, you must:
+
+1. [Create a developer account at Unsplash.com)](https://unsplash.com/developers) 
+2. Create a new application on the unsplash site. Doing so will provide you a secret access key that you can use to make authenticated requests to their API. 
+3. Copy the .env file in the root of this project, rename it to .env.local, and set the value of REACT_APP_UNSPLASH_SECRET_ACCESS_KEY to your Unsplash secret access key.
+4. Run `npm start` to start the application
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
